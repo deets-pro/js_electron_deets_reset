@@ -1,0 +1,26 @@
+{
+  "name": "js_electron_deets_reset",
+  "version": "1.0.0",
+  "description": "A private App for managing deets",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^13.1.5",
+    "electron-reload": "^1.5.0",
+    "electron-reloader": "^1.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deets-pro/js_electron_deets_reset.git"
+  },
+  "author": "Mohannad Otaibi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deets-pro/js_electron_deets_reset/issues"
+  },
+  "homepage": "https://github.com/deets-pro/js_electron_deets_reset#readme"
+}

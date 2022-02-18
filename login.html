@@ -1,0 +1,45 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="./assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+
+    <title>You must login</title>
+  </head>
+  <body class="bg-dark text-white py-5">
+    
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-12 mb-3">
+          <h1>Please Login   2 First!</h1>
+        </div>
+        <div class="col-12 mb-3">
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Email address</label>
+              <input type="text" class="form-control" id="username">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <div class="mb-3 d-grid">
+              <button type="submit" class="btn btn-primary">Submit</button>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <!-- You can also require other files to run in this process -->
+    <script src="./assets/css/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>
